@@ -145,7 +145,7 @@ p {
 
 .nav .nav-items .nav-link:hover {
   border-radius: 0px;
-  background-color: gray;
+  background-color: var(--bg-color);
   transition: ease-in-out 0.4s;
 }
 
@@ -207,6 +207,10 @@ main .site-title .btn:hover {
   background: transparent;
   border: 1px solid var(--white);
   color: var(--white);
+}
+
+main .site-title .btn,.fff:hover{
+  color: white;
 }
 
 /* --------x------ Site title --------x------- */
